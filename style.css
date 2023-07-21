@@ -1,118 +1,122 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    min-height: 100vh;
-    text-align: center;
-    background-image: linear-gradient(109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5%);
-    font-family:   system-ui, 'Segoe UI','Helvetica Neue', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  min-height: 100vh;
+  text-align: center;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(48, 207, 208, 1) 11.2%,
+    rgba(51, 8, 103, 1) 92.5%
+  );
+  font-family: system-ui, "Segoe UI", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container{
-    margin-top: 15px;
-    margin-bottom: 20px; 
-    padding: 15px;
-    width: 90%;
-    background-color:  aliceblue;
-    border-radius: 5px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 90%;
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.divleft{
-    margin-left: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.divleft {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h1{
-    font-size: 45px;
-    color: transparent;
-    background-image: linear-gradient(109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
-    -webkit-text-stroke: 1px black;
-    -webkit-background-clip: text;
-    animation: back 15s linear infinite;
-}
-  
-@keyframes back{
-    100% {
-      background-position: 2000px 0;
-    }
+h1 {
+  font-size: 45px;
+  color: transparent;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(48, 207, 208, 1) 11.2%,
+    rgba(51, 8, 103, 1) 92.5%
+  );
+  -webkit-text-stroke: 1px black;
+  -webkit-background-clip: text;
+  animation: back 15s linear infinite;
 }
 
-h2{
-    font-size: 15px;
-    margin: 10px;
-    font-weight: lighter;
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
 }
 
-.photoNumber{
-    margin: 10px;
-    width: 100px;
-    padding: 20px 10px;
-    border-radius: 3px;
-    text-align: center;
-    font-size: 15px;
+h2 {
+  font-size: 15px;
+  margin: 10px;
+  font-weight: lighter;
 }
 
-.error{
-    margin: 10px;
-    color: red;
-    font-weight: bolder;
-    display: none;
+.photoNumber {
+  margin: 10px;
+  width: 100px;
+  padding: 20px 10px;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 15px;
 }
 
-.getPhoto{
-    width: 250px;
-    height: 45px;
-    margin: 10px 0px;
-    padding: 10px;
-    border-radius: 3px;
-    font-size: 15px;
-    background-color: black;
-    color: white;
+.error {
+  margin: 10px;
+  color: red;
+  font-weight: bolder;
+  display: none;
 }
 
-.getPhoto:hover{
-    background-image: linear-gradient(109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5%);
-    cursor: pointer;
+.getPhoto {
+  width: 250px;
+  height: 45px;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
 }
 
-img{
-    margin: 5px;
-    border-radius: 5px;
-    width: 375px;
-    height: 250px;
-    object-fit: cover;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-    cursor: pointer; 
+.getPhoto:hover {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(48, 207, 208, 1) 11.2%,
+    rgba(51, 8, 103, 1) 92.5%
+  );
+  cursor: pointer;
 }
 
-img:hover{
-    transition: transform 1s;
-    transform: scale(1.05); 
+img {
+  margin: 5px;
+  border-radius: 5px;
+  width: 375px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
-.divimg{
-    margin: 5px;
-    height: 90vh;
-    display: none; 
-    overflow-y: scroll;
+img:hover {
+  transition: transform 1s;
+  transform: scale(1.05);
 }
 
-
-
-
-  
-  
-
-  
+.divimg {
+  margin: 5px;
+  height: 90vh;
+  display: none;
+  overflow-y: scroll;
+}
