@@ -111,7 +111,7 @@ img {
 
 @media (max-width: 380px) {
   img {
-    width: 300px;
+    width: 250px;
     height: 200px;
   }
 }
