@@ -109,7 +109,7 @@ img {
   cursor: pointer;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 450px) {
   img {
     width: 250px;
     height: 200px;
