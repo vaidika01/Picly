@@ -109,6 +109,13 @@ img {
   cursor: pointer;
 }
 
+@media (max-width: 380px) {
+  img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
 img:hover {
   transition: transform 1s;
   transform: scale(1.05);
