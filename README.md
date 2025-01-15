@@ -1,4 +1,4 @@
-# [Dynamic Photo Fetching Application](https://vaidika01.github.io/Unsplash-API/)
+# [Picly (Photo Gallery)](https://vaidika01.github.io/Picly/)
 
 ## Overview
 
